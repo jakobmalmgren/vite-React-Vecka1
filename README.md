@@ -1,4 +1,5 @@
 # FJSX24-React-Vecka3
+
 Tema: Kursintroduktion &amp; Grunder i React: Komponentarkitektur (K1, F1) + Introduktion till dokumentation (K10)
 
 # EXEMPEL PÅ README innehåll:
@@ -6,28 +7,33 @@ Tema: Kursintroduktion &amp; Grunder i React: Komponentarkitektur (K1, F1) + Int
 # Projektets namn
 
 ## Beskrivning
+
 Detta projekt är en enkel React-applikation som demonstrerar grunderna i komponentarkitektur och dokumentation och den är skapad med Vite.
 
 ## Installation
-1. Klona repot:
-I din terminal: git clone https://github.com/FJSX24/FJSX24-React-Vecka3
 
-2. Navigera till projektmappen: 
-cd project-name
+1. Klona repot:
+   I din terminal: git clone https://github.com/FJSX24/FJSX24-React-Vecka3
+
+2. Navigera till projektmappen:
+   cd project-name
 
 3. npm install
 
 4. npm run dev
 
 # Använda appen:
+
 Öppna en webbläsare och gå till : [Vilken url? : ](http://localhost:5173/)
 
 ## Funktioner/Komponenter:
+
 - Header: Header element som visar upp en text.
 - Greetings: Ett h1 element med texten Hello World.
 - Footer: Footer element som visar upp en text.
 
 ## Bidra
+
 Skicka en pull request om du vill förbättra projektet.
 
 # Övningar
