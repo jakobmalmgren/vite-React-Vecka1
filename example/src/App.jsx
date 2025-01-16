@@ -1,6 +1,7 @@
 import "./App.css";
 
 import TodoItem from "./components/TodoItem/TodoItem";
+import AddTodo from "./components/AddTodo/AddTodo";
 
 function App() {
   const heading = "Todo App";
@@ -27,6 +28,22 @@ function App() {
     },
   ];
 
+  // ------------------------------
+  function updateTodos(newTodo) {
+    console.log("I funktionen updateTodo: ", newTodo);
+
+    const todo = {
+      text: newTodo,
+      done: false,
+      id: todos.length + 1,
+    };
+
+    todos.push(todo);
+
+    console.log("Todos array: ", todos);
+  }
+  // ------------------------------
+
   const todoComponents = todos.map((todo) => {
     return <TodoItem text={todo.text} done={todo.done} key={todo.id} />;
   });
@@ -35,6 +52,9 @@ function App() {
     <main className="App">
       <h1>{heading}</h1> {/** Allt inom {} tolkas som vanilla JS */}
       <ul>{todoComponents}</ul>
+      {/* // ------------------------------ */}
+      <AddTodo update={updateTodos} />
+      {/* // ------------------------------ */}
     </main>
   );
 }
