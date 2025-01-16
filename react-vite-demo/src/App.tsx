@@ -28,11 +28,13 @@ function App() {
   ];
 
   function updateTodos(newTodo) {
-    console.log("newTodo: ", newTodo);
+    const todo = {
+      id: todos.length + 1,
+      text: newTodo,
+      done: false,
+    };
 
-    // TODO Skapa ett object med id, text och done
-
-    // TODO Pusha in objectet in i todos
+    todos.push(todo);
   }
 
   const todoComponents = todos.map((todo) => {

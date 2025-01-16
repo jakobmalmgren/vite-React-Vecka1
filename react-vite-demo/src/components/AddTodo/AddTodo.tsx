@@ -1,14 +1,14 @@
 function AddTodo(props) {
   const { updateTodos } = props;
 
-  function handleOnChange(event) {
-    console.log("Input changed", event.target.value);
+  let text = "";
 
-    const text = event.target.value;
+  function handleInputOnChange(event) {
+    text = event.target.value;
   }
 
-  function handleClick() {
-    console.log("Button clicked");
+  function handleBtnClick() {
+    updateTodos(text);
   }
 
   return (
@@ -16,9 +16,9 @@ function AddTodo(props) {
       <input
         type="text"
         placeholder="Vad ska göra?"
-        onChange={handleOnChange}
+        onChange={handleInputOnChange}
       />
-      <button onClick={handleClick}>Klicka </button>
+      <button onClick={handleBtnClick}>Klicka </button>
     </div>
   );
 }
