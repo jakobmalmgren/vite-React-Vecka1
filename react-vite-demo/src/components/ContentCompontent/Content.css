@@ -1,0 +1,9 @@
+.content {
+  height: 80%;
+}
+
+.content-checkbox-wrapper {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+}

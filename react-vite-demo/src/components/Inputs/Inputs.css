@@ -1,0 +1,13 @@
+.input {
+  height: 20%;
+  background-color: red;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+}
+.input__input {
+  width: 100%;
+  /* height: 90%; */
+}
+.input__header {
+  font-size: 0.8rem;
+}

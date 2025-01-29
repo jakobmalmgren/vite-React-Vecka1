@@ -1,0 +1,12 @@
+.FormSkeleton {
+  width: 350px;
+  border: 1px solid black;
+  height: 500px;
+}
+.FormSkeleton__header {
+  height: 20%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
