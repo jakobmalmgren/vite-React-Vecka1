@@ -1,11 +1,10 @@
 button {
   width: 90%;
-  height: 90%;
+  height: 70%;
 }
 .btn-section {
   height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
