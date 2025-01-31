@@ -1,0 +1,9 @@
+.splitTheNotaSkeleton {
+  width: 400px;
+  height: 500px;
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
